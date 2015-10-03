@@ -105,7 +105,7 @@ module.exports = function (grunt) {
                 stderr: true
             },
             build_files_editor: {
-                command: "npm install",
+                command: "npm install --unsafe-perm",
                 cwd: './addons/cb.files.editor/',
                 stdout: true,
                 stderr: true
