@@ -1,0 +1,19 @@
+{
+    "name": "cb.preview",
+    "version": "0.0.1",
+    "title": "Preview",
+    "description": "Preview app",
+    "homepage": "https://github.com/FriendCode/codebox",
+    "license": "Apache",
+    "author": {
+        "name": "Codebox",
+        "email": "contact@friendco.de",
+        "url": "https://www.codebox.io"
+    },
+    "client": {
+        "main": "client"
+    },
+    "engines": {
+        "codebox": ">=0.7.0"
+    }
+}

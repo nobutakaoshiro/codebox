@@ -254,6 +254,8 @@ var start = function(config) {
             // Watch (file modifications)
             "./cb.watch",
 
+            "./cb.preview",
+
             // Manages processes
             {
                 packagePath: "./cb.proc",
@@ -271,6 +273,7 @@ var start = function(config) {
             "./cb.rpc.search",
             "./cb.rpc.addons",
             "./cb.rpc.deploy",
+            "./cb.rpc.preview",
             "./cb.rpc.proc",
             "./cb.rpc.project",
             "./cb.rpc.run",
