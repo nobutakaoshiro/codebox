@@ -117,6 +117,7 @@ function setup(options, imports, register) {
     // Check if a path need auth
     var needAuth = function(path) {
         if (path == "/") return false;
+        if (path == "/rpc/connections/count") return false;
         return _.find(authorizedPaths, function(authPath) {
             return path.indexOf(authPath) == 0;
         }) == null;

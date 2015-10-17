@@ -256,6 +256,8 @@ var start = function(config) {
 
             "./cb.preview",
 
+            "./cb.connections",
+
             // Manages processes
             {
                 packagePath: "./cb.proc",
@@ -273,11 +275,13 @@ var start = function(config) {
             "./cb.rpc.search",
             "./cb.rpc.addons",
             "./cb.rpc.deploy",
-            "./cb.rpc.preview",
             "./cb.rpc.proc",
             "./cb.rpc.project",
             "./cb.rpc.run",
             "./cb.rpc.codecomplete",
+
+            "./cb.rpc.preview",
+            "./cb.rpc.connections",
 
             // Now start the damn server
             "./cb.main",

@@ -1,0 +1,15 @@
+{
+    "name": "cb.rpc.connections",
+    "version": "0.0.1",
+
+    "main": "./main.js",
+    "private": false,
+
+    "plugin": {
+        "provides": [],
+        "consumes": [
+            "connections",
+            "rpc"
+        ]
+    }
+}
